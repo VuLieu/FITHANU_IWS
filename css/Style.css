@@ -1,0 +1,97 @@
+
+#main-wrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.headerColor{
+    height: 20px;
+    background-color: #ccccff;
+}
+.headerImage{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+    background-image: url('image/welcome.PNG');
+    background-size: cover;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+.Link{
+    margin-top: 2%;
+    text-align: center;
+    height: 50px;
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 8px;
+    margin-top: 2px;
+}
+.Link li {
+    display: inline;
+    font-size: 20px;
+    padding: 30px;
+    font-family: myFirstFont;
+}
+.content{
+    background-color: lightyellow;
+    margin-left:  20%;
+    margin-right: 20%;  
+}
+#sidebar{
+    font-family: myFirstFont;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: #ccccff 6px solid;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
+#image{
+    height: 250px;
+    background-image: url('image/Information.jpg');
+
+    border-radius: 20%;
+    background-size: cover;
+}
+#main_content{
+    padding-left: 3%;
+    font-family: myFirstFont;
+    margin-top: 2%;
+    /*    background-color: #ccccff;*/
+    background-image: linear-gradient(to right,white, #ccccff,white,#ccccff);
+    font-size: 14px;
+/*    border: #ccccff 6px solid;*/
+}
+
+.Location{
+    text-align: center;
+}
+.name{
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.h1{
+    text-align: center;
+}
+.information{
+    padding: 10px;
+    border-bottom:#eae7fc solid 1px;
+}
+.allCourse{
+    padding: 10px;
+    border-bottom:#eae7fc solid 1px;
+    
+}
+.Skills{
+    padding: 10px;
+}
+.detail{
+    margin-left: 15px;
+}
